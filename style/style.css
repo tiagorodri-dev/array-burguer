@@ -66,3 +66,23 @@ p {
     font-weight: bold;
     color: #79cb15;
 }
+
+@media screen and (max-width: 694px) {
+    ul {
+        display: grid;
+        justify-content: center;
+        flex-direction: column;
+        grid-template-columns: 200px 200px;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 511px) {
+    ul {
+        display: grid;
+        justify-content: center;
+        flex-direction: column;
+        grid-template-columns: 200px;
+        gap: 20px;
+    }
+}
